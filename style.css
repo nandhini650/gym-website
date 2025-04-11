@@ -1,0 +1,782 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+    text-decoration: none;
+}
+.head-container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.head-container .nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    color: white;
+    background-color: rgba(233, 236, 237,0.2);
+   
+}
+.head-container .nav-links h1{
+    font-size: 3rem;
+}
+.head-container .nav-links h1 span{
+    color: orangered;
+}
+.head-container .nav-links ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 17px;
+    transition: color 0.8s;
+    
+}
+.head-container .nav-links ul .box-link
+{
+    background-color: orangered;
+    padding: 6px 8px;
+  
+}
+.head-container .nav-links ul .box-link a{
+    color: white;
+}
+/*Anchor tag with border*/
+
+.head-container .nav-links ul li:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.head-container video{
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    filter: brightness(0.3);
+}
+.head-container .main-text
+{
+    text-align: center;
+   
+    margin-top:10%;
+}
+.head-container .main-text .line1
+{
+    color: white;
+    font-weight: 800;
+    
+}
+.head-container .main-text .line2
+{
+    color: white;
+    font-weight: bold;
+    font-size: 5rem;
+ 
+}
+.head-container .main-text .line2 span{
+    color: orangered;
+}
+.head-container .main-text .btn
+{
+    background-color: orangered;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+}
+main .page1
+{
+    text-align: center;
+    margin-top: 20px;
+}
+main .page1 h2
+{
+    font-weight: bold;
+    padding: 10px;
+}
+main .page1 h2 span{
+color: orangered;
+}
+main .page1 .para{
+    color: rgb(137, 134, 134);
+    padding: 15px;
+}
+main .page1 .grid-container .content
+{
+    display: flex;
+    text-align: left;
+    padding: 15px;
+}
+main .page1 .grid-container .content .right h2{
+    font-size: 20px;
+}
+main .page1 .grid-container .content .right p
+{
+    color: rgb(103, 101, 101);
+    padding: 0 10px;
+}
+main .page1 .grid-container .content .right h5{
+    color: orangered;
+    font-size: 12px;
+    padding: 10px;
+}
+main .page1 .grid-container .content .right span{
+    color: blue;
+}
+main .page1 .grid-container 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 120px;
+}
+.page2 
+{
+    width: 100%;
+    height: 350px;
+    background-image: url(cta-bg.jpg);
+    background-image: center;
+    object-fit: cover;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.page2 span{
+    color: orangered;
+}
+.page2 p{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.page2 .paragraph
+{
+    font-size: 1rem;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.page2 button
+{
+    background-color: orangered;
+    padding: 8px 8px;
+    margin-top: 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.page3{
+    text-align: center;
+    padding-top: 40px;
+}
+.page3 h2
+{
+    padding: 10px;
+    font-weight: bold;
+}
+.page3 h2 span{
+    color: orangered;
+
+}
+.page3 p{
+    color: rgb(103, 101, 101);
+    margin-top: 10px;
+}
+.page3 .page-three
+{
+    padding-top: 20px;
+    display: grid;
+   grid-template-columns: 1fr 2fr; 
+   column-gap: 15%;
+}
+.page3 .page-three .Classes 
+{
+margin-left: 35%;
+}
+.page3 .page-three .Classes ul
+{
+    padding-top: 25px;
+}
+.page3 .page-three .Classes ul li
+{
+    height: 70px;
+    width: 350px; 
+    border: 1px solid rgb(156, 156, 156);
+    box-shadow: 1px 1px 4px 5px rgb(209, 208, 208);
+    margin-bottom: 30px;
+    list-style: none;
+}
+.page3 .page-three .Classes ul li img{
+    padding: 5px;
+}
+.page3 .page-three .Classes ul li a{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    transition: 0.8s;
+}
+ #view
+{
+    box-shadow: none;
+    height: 60px;
+    width: 350px;
+    background-color: orangered;
+}
+.page3 .page-three .Classes ul li button
+{
+    background-color: orangered;
+    border: none;
+    padding-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+.page3 .page-three .Classes ul li a:hover{
+    color: orangered;
+}
+ 
+.page3 .page-three .Classes-right p{
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    
+}
+.page3 .page-three .Classes-right
+{
+    text-align: left;
+    
+}
+.page3 .page-three .Classes-right button
+{
+    background-color: orangered;
+    height: 35px;
+    width: 100px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.page4
+{
+    width: 100%;
+    height: 900px;
+    background-image: url(schedule-bg.jpg);
+    background-image: center;
+    text-align: center;
+    color: white;
+   margin-top: 50px;
+}
+.page4 h2 
+{
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+.page4 h2 span{
+  color: orangered;
+}
+.page4 p{
+    padding: 10px;
+}
+.page4 ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin-top: 10px;
+}
+.page4 ul li a{
+    color: white;
+    transition: 0.8s;
+}
+.page4 ul li a:hover{
+    color: orangered;
+}
+table{
+    width: 90%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+table,td{
+    height: 105px;
+}
+table,td,th{
+    border: 1px solid #fff;
+      padding: 15px;
+      text-align: center;
+}
+.page5
+{
+    text-align: center;
+    margin-top: 25px;
+}
+.page5 h2 span{
+    color: orangered;
+}
+.page5 h2
+{
+    padding: 10px;
+}
+.page5 p{
+    color: rgb(87, 87, 86);
+    padding: 10px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .grid img{
+    padding: 5px;
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  .page5 .icon i{
+    font-size: 15px;
+    color: black;
+    padding-left: 5px;
+  }
+  .page5 .card h5{
+    color: orangered;
+    padding: 5px 10px;
+  }
+  .page5 .card h3{
+    padding: 1px 10px;
+  }
+  .page5 .card .icon
+  {
+    padding: 5px 10px;
+  }
+  .page6
+  {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .page6 .map iframe
+  {
+    height: 550px;
+    
+  }
+  .page6 .form
+{
+    width: 69%;
+    height: 550px;
+    background-image: url(contact-bg.jpg);
+    background-image: center;
+    object-fit: cover;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    position: relative;
+   
+}
+.page6 .form form{
+    width: 85%;
+    height: 450px;
+    background-color: white;
+    z-index: 999;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 70px;
+   top: 50px;
+
+}
+.page6 .form form input{
+    border: 1px solid rgb(143, 142, 142);
+    height: 50px;
+    width:38%;
+    margin-top: 15px;
+   font-size: 16px;
+background-color: white;
+
+}
+#subject
+{
+    height: 50px;
+    width: 77%;
+
+}
+#Message
+{
+    height: 190px;
+    width: 77%
+}
+.page6 form button
+{
+    background-color: orangered;
+    padding: 10px 10px;
+    color: white;
+    font-weight: bold;
+    align-items: left;
+    margin-top: 15px;
+    border: none;
+}
+
+
+ 
+
+
+@media(max-width:1100px)
+{
+    .page3 .page-three
+    {
+        padding-top: 20px;
+        display: grid;
+       grid-template-columns: 1fr;
+       margin-left: 5%;
+    } 
+    .page6
+  {
+    margin-top: 30px;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .page6 .form
+  {
+      width: 75%;
+      height: 550px;
+      background-image: url(contact-bg.jpg);
+      background-image: center;
+      object-fit: cover;
+      text-align: center;
+      color: white;
+      padding-top: 100px;
+      position: relative;
+      left: 55px;
+      top: 50px;
+ 
+  }
+  .page6 .form form{
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    z-index: 999;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 50px;
+   top: 30px;
+
+}
+.page6 .map iframe
+{
+  height: 550px;
+  margin-left: 55px;
+
+}
+}
+@media(max-width:991px)
+{
+    .head-container .nav-links ul li{
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 30px;
+        font-size: 17px;
+        transition: color 0.8s;
+        display: none;
+        
+    }
+    .head-container .nav-links ul .box-link
+    {
+        display: block;
+    }
+    main .page1 .grid-container 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    margin-left: 10px;
+}
+.page2 .paragraph
+{
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 400;
+    
+}
+.page3 .page-three .Classes 
+{
+    margin-left: 10px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+}
+@media(max-width:768px)
+{
+    .head-container .main-text .line2
+{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+ 
+}
+main .page1 .grid-container 
+{
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin-left: 20px;
+}
+.page3 .page-three .Classes-right img {
+   width: 70%;
+}
+.page3 .page-three
+{
+    padding-top: 20px;
+    display: grid;
+   grid-template-columns: 1fr;
+   margin-left: 8%;
+} 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .page6 .map iframe
+  {
+    height: 450px;
+    width: 130%;
+  }
+  .page6 .form
+  {
+      width: 130%;
+      height: 550px;
+      background-image: url(contact-bg.jpg);
+      background-image: center;
+      object-fit: cover;
+      text-align: center;
+      color: white;
+      padding-top: 100px;
+      position: relative;
+     
+  }
+  .page6 .form form{
+      width: 75%;
+      height: 450px;
+      background-color: white;
+      z-index: 999;
+      position: absolute;
+      border-radius: 10px;
+      margin-left: 55px;
+     top: 50px;
+  
+  }
+}
+@media(max-width:575px)
+{
+    .head-container .main-text .line2
+{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+ 
+}
+.head-container .nav-links h1{
+    font-size: 2rem;
+}
+.head-container .main-text
+{
+    text-align: center;
+   
+    margin-top:30%;
+}
+.page2 p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.page2 .paragraph
+{
+    font-size: 15px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.head-container{
+    width: 100%;
+    height: 88vh;
+    overflow: hidden;
+    position: relative;
+}
+table,td,th{
+    border: 1px solid #fff;
+      padding: 10px;
+      text-align: center;
+}
+.page6 .map iframe
+  {
+    height: 350px;
+    width: 300px;
+  }
+  .page6 .form
+  {
+      width: 300px;
+      height: 550px;
+      background-image: url(contact-bg.jpg);
+      background-image: center;
+      object-fit: cover;
+      text-align: center;
+      color: white;
+      padding-top: 100px;
+      position: relative;
+      
+  }
+  .page6 .form form{
+      width: 75%;
+      height: 450px;
+      background-color: white;
+      z-index: 999;
+      position: absolute;
+      border-radius: 10px;
+      margin-left: 45px;
+     top: 50px;
+  
+  }
+
+
+}
+@media(max-width:375px)
+{
+    .head-container .main-text .line2
+    {
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+     
+    }
+    .head-container .nav-links h1{
+        font-size: 1.5rem;
+    }
+    .head-container .main-text .btn
+{
+    background-color: orangered;
+    padding: 5px 5px;
+    color: white;
+    border: none;
+}
+main .page1 .grid-container .content
+{
+    padding: 10px;
+}
+main .page1 .grid-container 
+{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+main .page1 .grid-container .content .right p
+{
+    color: rgb(103, 101, 101);
+    padding: 0 10px;
+    font-size: 14px;
+}
+.head-container .main-text
+{
+    text-align: center;
+   
+    margin-top:45%;
+}
+.head-container .main-text p{
+padding: 10px;
+font-size: 18px;
+}
+.head-container .main-text .line2
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding-bottom: 25px;
+ 
+}
+.page2 p{
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.page2 .paragraph
+{
+    font-size: 15px;
+    padding-top: 20px;
+    font-weight: 400;
+    padding: 15px;
+}
+.page3 .page-three .Classes ul li
+{
+    height: 70px;
+    width: 290px; 
+    border: 1px solid rgb(156, 156, 156);
+    box-shadow: 1px 1px 4px 5px rgb(209, 208, 208);
+    margin-bottom: 30px;
+    list-style: none;
+}
+#view
+{
+    box-shadow: none;
+    height: 60px;
+    width: 290px;
+    background-color: orangered;
+}
+.page3 .page-three
+{
+    padding-top: 20px;
+    display: grid;
+   grid-template-columns: 1fr;
+   margin-left: 10%;
+} 
+.page3 .page-three .Classes-right img {
+    width: 90%;
+ }
+ .page3 .page-three .Classes-right p {
+    width: 90%;
+ }
+ table,td,th{
+    border: 1px solid #fff;
+      padding: 8px;
+      text-align: center;
+}
+.page6 .map iframe
+  {
+    height: 350px;
+    width: 270px;
+  }
+  .page6 .form
+  {
+      width: 280px;
+      height: 550px;
+      background-image: url(contact-bg.jpg);
+      background-image: center;
+      object-fit: cover;
+      text-align: center;
+      color: white;
+      padding-top: 100px;
+      position: relative;
+      align-content: center;
+      border-radius: 10px;
+      
+  }
+  .page6 .form form{
+      width: 95%;
+      height: 450px;
+      background-color: white;
+      z-index: 999;
+      position: absolute;
+      border-radius: 10px;
+      margin-left: 6px;
+     top: 50px;
+  
+  }
+
+}
+
+
